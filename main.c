@@ -6,14 +6,17 @@ int main() {
     float sisi, panjang, lebar, tinggi, alas, tinggi_limas, r, diagonal1, diagonal2;
     float luas, volume, keliling;
 
-    printf("\nApa yang ingin anda hitung? \n");
+    printf("\nApa yang ingin anda hitung: ");
+    printf("\n____________________________\n");
     printf("1. Bangun Datar\n");
     printf("2. Bangun Ruang\n");
     printf("Pilih kategori:\n");
     scanf("%d", &category);
 
     if (category == 1) {
-        printf("Menghitung Bangun Datar\n");
+        printf("############################\n");
+        printf("Menghitung Bangun Datar");
+        printf("\n############################\n");
         printf("1. Persegi\n");
         printf("2. Persegi Panjang\n");
         printf("3. Segitiga\n");
@@ -25,7 +28,8 @@ int main() {
         printf("Pilih bangun datar:\n");
         scanf("%d", &pilihan);
 
-        printf("Pilih yang ingin dihitung:\n");
+        printf("Pilih yang ingin dihitung:");
+        printf("\n____________________________\n");
         printf("1. Luas\n");
         printf("2. Keliling\n");
         scanf("%d", &pilih);
@@ -152,7 +156,9 @@ int main() {
             printf("Pilihan tidak valid.\n");
         }
     } else if (category == 2) {
-        printf("\nMenghitung Bangun Ruang\n");
+        printf("############################\n");
+        printf("Menghitung Bangun Ruang");
+        printf("\n############################\n");
         printf("1. Kubus\n");
         printf("2. Balok\n");
         printf("3. Limas Segi Empat\n");
@@ -163,7 +169,8 @@ int main() {
         printf("Pilih bangun ruang:\n");
         scanf("%d", &pilihan);
 
-        printf("\nPilih yang ingin dihitung:\n");
+        printf("Pilih yang ingin dihitung:");
+        printf("\n____________________________\n");
         printf("1. Luas\n");
         printf("2. Volume\n");
         scanf("%d", &pilih);
