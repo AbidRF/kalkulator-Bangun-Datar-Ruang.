@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/Project.pro"/>
-    <qresource prefix="/Images">
-        <file>chip.jpg</file>
-    </qresource>
-</RCC>
